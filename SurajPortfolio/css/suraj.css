@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4e9d5;
+}
+
+li{
+    list-style: none;
+    margin-right: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.headerX h1{
+    font-size: 45px;
+    color: rgb(248, 42, 42);
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f19a49;
+    /* color: aliceblue; */
+    padding: 10px 20px;
+    font-weight: 700;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.head-1{
+    font-size: 35px;
+    /* font-family: cursive; */
+    font-weight: 500;
+    font-family: fantasy;
+}
+
+.head-2{
+    display: flex;
+    margin-right: 4rem;
+    padding-top: 10px;
+}
+
+.head-2 li a{
+    color: #333;
+}
+
+/* Banner */
+
+.striper{
+    background-color: #333;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+}
+
+/* skills  */
+
+.skill{
+    display: flex;
+    padding: 20px 200px;
+    justify-content: space-evenly;
+}
+
+.skills{
+    display: flex;
+    padding: 20px 200px;
+    justify-content: center;
+}
+
+.resume-2{
+    margin:120px 0 0 30px;
+    
+}
+
+.skill-1{
+    max-width: 270px;
+    padding: 10px;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dcb265d7;
+    padding :20px 0; 
+}
+
+.footer-1{
+    align-items: center;
+}
+
+.footer-1 span a img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.footer-2{
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+/* Additional Requirement */
+
+.section-2 img{
+    max-width: 500px;
+    max-height: 500px;
+    position: relative;
+    bottom: px;
+    left: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+.headerX{
+    padding-top: 70px;
+}
+
+.about-1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: -5px 5px rgb(212, 136, 136);
+}
+
+.project{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.project-logo{
+    max-width: 270px;
+    max-height: 200px;
+}
+
+.resume{
+    max-width: 200px;
+    border: 1px solid black;
+    
+}
+
+.head-2 li:hover{
+    transform: scale(1.35);
+}

@@ -1,0 +1,97 @@
+.background1{
+    background-color: #e6b3a7;
+    /* background-color: #e0eaf4; ffd7cd */
+    color: rgb(211, 6, 6);
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.click{
+     border: none;
+     color: white;
+     padding: 10px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.click1:hover{
+    background-color: #2980b9;
+    /* transform: scale(1.05); */
+    transform: skewX(15deg);
+}
+
+.click1{
+    background-color: #3498db;
+}
+
+.click2{
+    background-color: #11171c;
+}
+
+.click2:hover{
+    background-color: #2e3439;
+    /* transform: scale(1.05); */
+    transform: skewY(10deg);
+}
+
+.click3{
+    background-color: #e43f22;
+}
+
+.click3:hover{
+    background-color: #f16d58;
+    /* transform: scale(1.05); */
+    transform: skewY(10deg);
+}
+
+.click4{
+    background-color: #9d22e4;
+}
+
+.click4:hover{
+    background-color: #b467ef;
+    /* transform: scale(1.05); */
+    transform: rotateY(150deg) rotate(360deg);
+
+}
+
+.card{
+    background-color: #f1debe;
+    box-shadow: -4px 4px #c3baba;
+}
+
+.card:hover{
+    background-color: #f3d8a9;
+    box-shadow: -4px 4px #c3baba;
+    transform: skewY(8deg) scale(1.07);
+}
+
+.box{
+    box-shadow: -4px 4px #c08787;
+    border-radius: 50%;
+    background-color: #28c3d8;
+}
+
+.box:hover{
+    background-color: #8352d2;
+    /* transform: rotate(90deg); */
+    transform: rotateY(150deg) rotate(360deg);
+    transition-duration: 2s;
+}
+
+.pen{
+    background-color: #9d22e4;
+}
+
+.pen:hover{
+    background-color: #f00997;
+    /* transform: rotateY(150deg); */
+    transform: rotateY(150deg)  scale(1.4) skew(20deg, 10deg) translate(-5px, -4px);
+    transition-duration: 2s;
+
+}
